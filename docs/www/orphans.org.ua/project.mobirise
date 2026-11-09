@@ -1,0 +1,265 @@
+{
+  "settings": {
+    "name": "Сайт ПОС Віра в майбутнє",
+    "currentPage": "index.html",
+    "versionFirst": "4.0.14",
+    "uniqCompNum": 20,
+    "versionPublish": "4.6.2",
+    "theme": {
+      "additionalSetColors": [
+        "#4e004e"
+      ]
+    },
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "robotsSwitcher": "on",
+    "siteUrl": "http://www.orphans.org.ua/",
+    "sitemapSwitcherAuto": "on",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-128x164.png",
+    "noImageResize": "",
+    "sitemapSwitcher": "on",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Правозахисна організація сиріт \"Віра в майбутнє\"",
+        "meta_descr": "Наше покликання допомагати сиротам тому що Правозахисна організація сиріт \"Віра в майбутнє\" створена колишніми випускниками шкіл-інтернатів для дітей-сиріт та дітей, позбавлених батьківського піклування.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "msg-box5",
+          "_params": {
+            "showTitle": false,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
+            "imageSize": "60",
+            "paddingTop": "2",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4e004e",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/photo-snyatyn-919x257.png",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "DRAG AND DROP WEBSITE BUILDER",
+          "text": "<p>Основною метою діяльності організації є відстоювання і задоволення та захист конституційних, і законних прав дітей-сиріт і дітей, позбавлених батьківського піклування та випускників шкіл-інтернатів, які набули статус дитини-сироти і дитини, позбавленої батьківського піклування, сприянню їх соціальної адаптації та самореалізації, впровадження діяльності спрямованої на задоволення їх потреб та інших спільних інтересів.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "font-size": "16px"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-i"
+        },
+        {
+          "_name": "menu1"
+        },
+        {
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#4e004e",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "(c) 1998 - 2017 Правозахисна організація сиріт \"Віра в майбутнє\".",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-g",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          }
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "showButtons": true,
+            "sticky": false,
+            "collapsed": false,
+            "transparent": false,
+            "color": "#4e004e",
+            "hamburgerColor": "#ffffff"
+          },
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-danger\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.orphan.org.ua/donate.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОЖЕРТВУВАТИ</a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#4e004e"
+            },
+            ".mbr-navbar__section": {
+              "background": "#4e004e"
+            },
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".mbr-brand__name a": {
+              "font-size": "14px"
+            }
+          },
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.orphans.org.ua/\">Головна</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://www.orphan.org.ua/about.html\">Про нас</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://news.orphan.org.ua/\">Новини</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://news.orphan.org.ua/\">Блог</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"http://contacts.orphan.org.ua/\">Контакти</a></li>",
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logotype-99x128.png",
+              "class": "mbr-navbar__brand-img mbr-brand__img",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "http://www.orphans.org.ua/",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://www.orphan.org.ua/\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">ПОС \"Віра в майбутнє\"</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-h"
+        },
+        {
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_params": {
+            "autoplay": true,
+            "fullScreen": false,
+            "paddingTop": "0",
+            "paddingBottom": "0",
+            "showBullets": false,
+            "bgColor": "#4e004e",
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/help-children-orphans-1600x1200.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://www.orphan.org.ua/donate.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОЖЕРТВУВАТИ</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/help-children-orphan-1600x1200.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://www.orphan.org.ua/donate.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОЖЕРТВУВАТИ</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/help-children-orphans-boarding-1-1024x768.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://www.orphan.org.ua/donate.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОЖЕРТВУВАТИ</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/orphans-charity-initiative-for-easter-2-1024x768.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://www.orphan.org.ua/donate.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОЖЕРТВУВАТИ</a> "
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/children-orphan-1280x960.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": false,
+                "showTitle": false,
+                "title": "Slide 3",
+                "contentAlign": "center",
+                "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://www.orphan.org.ua/donate.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">ПОЖЕРТВУВАТИ</a> "
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_anchor": "slider-j"
+        }
+      ]
+    }
+  }
+}

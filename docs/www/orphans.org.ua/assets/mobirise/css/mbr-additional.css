@@ -1,0 +1,30 @@
+#msg-box4-i .mbr-header__text {
+  color: #ffffff;
+}
+#msg-box4-i .mbr-header__subtext {
+  color: #ffffff;
+}
+#msg-box4-i .mbr-article {
+  color: #ffffff;
+}
+#msg-box4-i .mbr-article P {
+  font-size: 16px;
+}
+#footer1-g P {
+  color: #ffffff;
+}
+#ext_menu-h .mbr-brand__name {
+  font-size: 16px;
+}
+#ext_menu-h.mbr-navbar--stuck .mbr-navbar__section {
+  background: #4e004e;
+}
+#ext_menu-h .mbr-navbar__section {
+  background: #4e004e;
+}
+#ext_menu-h .mbr-navbar__hamburger {
+  color: #ffffff;
+}
+#ext_menu-h .mbr-brand__name a {
+  font-size: 14px;
+}
